@@ -1,5 +1,15 @@
-### Harmattan :sunny: :umbrella: :cloud: :snowflake: :snowman:
+### Harmattan
+conky的主题 [conky](https://github.com/brndnmtthws/conky) powered by [OpenWeatherMap](http://openweathermap.org/).
+### 安装
+1. ubuntu环境 需要先安装conky
+```
+apt install conky-all
+```
+2. 下载主题
 
+### 
+
+### Harmattan :sunny: :umbrella: :cloud: :snowflake: :snowman:
 A theme for [conky](https://github.com/brndnmtthws/conky) powered by [OpenWeatherMap](http://openweathermap.org/).
 
 ---

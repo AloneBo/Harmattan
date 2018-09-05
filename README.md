@@ -1,11 +1,21 @@
-### Harmattan
+### Harmattan 漂亮的conky主题
 conky的主题 [conky](https://github.com/brndnmtthws/conky) powered by [OpenWeatherMap](http://openweathermap.org/).
 ### 安装
 1. ubuntu环境 需要先安装conky
 ```
 apt install conky-all
 ```
-2. 下载主题
+2. 下载conky主题
+```
+cd ~/downloads
+git clone https://github.com/AloneBo/Harmattan.git
+cp -R .harmattan-assets ~/
+```
+3. 配置主题
+进入`.harmattan-themes`选择一个`.conkyrc`文件，拷贝至家目录
+```
+cp ~/downloads/.harmattan-themes/Numix/God-Mode/photo-mode/.conkyrc ~
+```
 
 ### 
 

@@ -1,5 +1,6 @@
-### Harmattan 漂亮的conky主题
+### Harmattan conky主题 conky配置
 conky的主题 [conky](https://github.com/brndnmtthws/conky) powered by [OpenWeatherMap](http://openweathermap.org/).
+
 ### 安装
 1. ubuntu环境 需要先安装conky
 ```
@@ -12,15 +13,23 @@ git clone https://github.com/AloneBo/Harmattan.git
 cp -R .harmattan-assets ~/
 ```
 3. 复制主题
-进入`.harmattan-themes`选择一个`.conkyrc`文件，拷贝至家目录
+进入`.harmattan-themes`选择一个`.conkyrc`文件，拷贝至家目录  最外层也默认放置了一个配置文件
 ```
-cp ~/downloads/.harmattan-themes/Numix/God-Mode/photo-mode/.conkyrc ~/
+cp ~/downloads/Harmattan/.conkyrc-ME ~/.conkyrc 
 ```
 4. 修改参数
 
-   打开`~`家目录下的`.conkyrc`
+   > 要先注册一个 [OpenWeatherMap](http://openweathermap.org/)帐号 找到`API KEY`以及`CITY ID`
+   >
+   > CITY ID 通过解压`city.list.json.gz` 
+   >
+   > `apt install unar`
+   >
+   > `unar city.list.json.gz`
 
-### 
+   打开`~`家目录下的`.conkyrc` 替换 相关参数，保存 然后打开终端输入`conky`即可。 如果出现错误请确保参数修改正确，修改`.conkyrc`坐标值可以改变位置，具体请自行查看修改。
+
+
 
 ### Harmattan :sunny: :umbrella: :cloud: :snowflake: :snowman:
 A theme for [conky](https://github.com/brndnmtthws/conky) powered by [OpenWeatherMap](http://openweathermap.org/).

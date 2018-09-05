@@ -9,11 +9,11 @@ double_buffer=true,
 no_buffers=true,
 imlib_cache_size=10,
 
-draw_shades=false,
+draw_shades=true,
 draw_outline=false,
 draw_borders=false,
 draw_graph_borders=false,
-default_graph_height=26,
+default_graph_height=30,
 default_graph_width=80,
 show_graph_scale=false,
 show_graph_range=false,
@@ -22,8 +22,8 @@ show_graph_range=false,
 -------------------------------------
 --  Window Specifications
 -------------------------------------
-gap_x=100,
-gap_y=70,
+gap_x=1600,
+gap_y=500,
 minimum_height=620,
 minimum_width=268,
 own_window=true,
@@ -42,7 +42,7 @@ border_outer_margin=0,
 -------------------------------------
 use_xft=true,
 xftalpha=1,
-font="Droid Sans:size=8",
+font="Ubuntu:size=8",
 text_buffer_size=256,
 override_utf8_locale=true,
 
@@ -53,14 +53,14 @@ top_name_width=7,
 
 
 -------------------------------------
---  Color Scheme
+--  Color Scheme color5 text color
 -------------------------------------
 default_color="DCDCDC",
 color1="DCDCDC",
 color2="DCDCDC",
 color3="DCDCDC",
 color4="F9F9F9",
-color5="D64937",
+color5="FFFFFF",
 color6="888888",
 color7="484848",
 color8="2D2D2D",
@@ -69,13 +69,13 @@ color8="2D2D2D",
 -------------------------------------
 --  API Key
 -------------------------------------
-template6="",
+template6="REPLACE-ME",
 
 
 -------------------------------------
 --  City ID
 -------------------------------------
-template7="",
+template7="REPLACE-ME",
 
 
 -------------------------------------
@@ -88,8 +88,7 @@ template8="metric",
 --  Locale (e.g. "es_ES.UTF-8")
 --  Leave empty for default
 -------------------------------------
-template9=""
-
+template9="zh_cn.UTF-8"
 }
 
 

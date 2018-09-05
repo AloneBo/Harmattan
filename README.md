@@ -19,13 +19,14 @@ cp ~/downloads/Harmattan/.conkyrc-ME ~/.conkyrc
 ```
 4. 修改参数
 
-   > 要先注册一个 [OpenWeatherMap](http://openweathermap.org/)帐号 找到`API KEY`以及`CITY ID`
-   >
-   > CITY ID 通过解压`city.list.json.gz` 文件查找得到
-   >
-   > `apt install unar`
-   >
-   > `unar city.list.json.gz`
+   > 要先注册一个 [OpenWeatherMap](http://openweathermap.org/)帐号 找到`API KEY`以及你所在城市的`CITY ID`
+
+   CITY ID 通过解压`city.list.json.gz` 文件查找得到
+
+   ```apt install unar
+   apt install unar
+   unar city.list.json.gz
+   ```
 
    打开`~`家目录下的`.conkyrc` 文件替换 相关参数，保存 然后打开终端输入`conky`即可。 如果出现错误请确保参数修改正确，修改`.conkyrc文件`坐标值可以改变位置，具体请自行查看修改。刚注册好可能还不能使用，等待几分钟
 

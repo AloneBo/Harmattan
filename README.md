@@ -27,7 +27,7 @@ cp ~/downloads/Harmattan/.conkyrc-ME ~/.conkyrc
    >
    > `unar city.list.json.gz`
 
-   打开`~`家目录下的`.conkyrc` 文件替换 相关参数，保存 然后打开终端输入`conky`即可。 如果出现错误请确保参数修改正确，修改`.conkyrc文件`坐标值可以改变位置，具体请自行查看修改。
+   打开`~`家目录下的`.conkyrc` 文件替换 相关参数，保存 然后打开终端输入`conky`即可。 如果出现错误请确保参数修改正确，修改`.conkyrc文件`坐标值可以改变位置，具体请自行查看修改。刚注册好可能还不能使用，等待几分钟
 
 
 

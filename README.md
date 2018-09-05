@@ -18,6 +18,8 @@ cp ~/downloads/.harmattan-themes/Numix/God-Mode/photo-mode/.conkyrc ~/
 ```
 4. 修改参数
 
+   打开`~`家目录下的`.conkyrc`
+
 ### 
 
 ### Harmattan :sunny: :umbrella: :cloud: :snowflake: :snowman:

@@ -11,11 +11,12 @@ cd ~/downloads
 git clone https://github.com/AloneBo/Harmattan.git
 cp -R .harmattan-assets ~/
 ```
-3. 配置主题
+3. 复制主题
 进入`.harmattan-themes`选择一个`.conkyrc`文件，拷贝至家目录
 ```
-cp ~/downloads/.harmattan-themes/Numix/God-Mode/photo-mode/.conkyrc ~
+cp ~/downloads/.harmattan-themes/Numix/God-Mode/photo-mode/.conkyrc ~/
 ```
+4. 修改参数
 
 ### 
 

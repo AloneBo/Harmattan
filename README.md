@@ -2,9 +2,9 @@
 conky的主题 [conky](https://github.com/brndnmtthws/conky)，天气接口由 [OpenWeatherMap](http://openweathermap.org/)提供.
 
 ### 安装
-1. ubuntu环境 需要先安装conky
+1. ubuntu环境 需要先安装conky以及jq
 ```
-apt install conky-all
+apt install conky-all jq
 ```
 2. 下载conky主题
 ```

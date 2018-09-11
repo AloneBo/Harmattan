@@ -1,5 +1,7 @@
 ### Harmattan conky主题 conky配置
-conky的主题 [conky](https://github.com/brndnmtthws/conky)，天气接口由 [OpenWeatherMap](http://openweathermap.org/)提供.
+conky的主题，天气接口由 [OpenWeatherMap](http://openweathermap.org/)提供.
+
+<img src="https://raw.githubusercontent.com/AloneBo/Harmattan/master/Demo.png" id="Demo">
 
 ### 安装
 1. ubuntu环境 需要先安装conky以及jq
